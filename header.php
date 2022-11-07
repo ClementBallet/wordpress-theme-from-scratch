@@ -13,3 +13,14 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
+    <header>
+        Cette phrase s'affiche partout.
+        <br>
+        <?php
+            if ( is_singular('recettes') ) :
+        ?>
+            On est sur une recette
+        <?php
+            endif;
+        ?>
+    </header>

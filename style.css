@@ -5,3 +5,11 @@ Theme Name: Wordpress Live Coding
 body {
     font-family: sans-serif;
 }
+
+.wp-block-media-text {
+    display: flex;
+}
+
+.wp-block-media-text__media {
+    width: 50%;
+}
